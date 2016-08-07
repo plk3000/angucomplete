@@ -66,6 +66,7 @@ var app = angular.module('app', ["angucomplete"]);
 | inputclass | The classes to use for styling the input box | No | form-control |
 | localdata | The local data variable to use from your controller. Should be an array of objects | No | countriesList |
 | searchfields | The fields from your local data to search on (comma separate them) | No | title,description |
+| on-selection | function to be executed when a selection is made with the selection as a parameter | No | showAlert() |
 
 ### Running test suite
 
@@ -101,4 +102,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
