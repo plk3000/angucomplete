@@ -12,13 +12,16 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "async": "0.1.x",
-    "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-karma": "~0.6.2",
-    "karma": "~0.10.2",
-    "grunt-conventional-changelog": "~1.0.0",
-    "load-grunt-tasks": "~0.2.0"
+    "async": "^2.0.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-conventional-changelog": "^6.1.0",
+    "grunt-karma": "^2.0.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.2",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "load-grunt-tasks": "^3.5.0"
   }
 }
